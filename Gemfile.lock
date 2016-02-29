@@ -1,17 +1,11 @@
-GIT
-  remote: git@github.com:LoyaltyNZ/alchemy-flux.git
-  revision: b3a599605ba59b35c3022654f40bcf03eddd4754
-  branch: feature/v1.0
+GEM
+  remote: https://rubygems.org/
   specs:
     alchemy-flux (1.0.0)
       amqp (~> 1.5)
       eventmachine (~> 1.0)
       rack (~> 1.6)
       uuidtools (~> 2.1)
-
-GEM
-  remote: https://rubygems.org/
-  specs:
     amq-protocol (1.9.2)
     amqp (1.5.1)
       amq-protocol (~> 1.9)
@@ -31,7 +25,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  alchemy-flux!
+  alchemy-flux (~> 1.0)
   sinatra
 
 BUNDLED WITH

@@ -1,9 +1,6 @@
-FROM alpine:3.3
+FROM ruby:2.3
 
 MAINTAINER Graham Jenson <graham.jenson@loyalty.co.nz>
-
-RUN apk update
-RUN apk add ruby ruby-bundler
 
 # Create app directory
 RUN mkdir /www
